@@ -1,8 +1,8 @@
-// function greet(name){
-//     return "Hello" + name;
-// }
+function greet(name){
+    return "Hello" + name;
+}
 
-// console.log(greet(" deepak"));
+console.log(greet(" deepak"));
 
 
 function add(a,b){
@@ -24,3 +24,20 @@ function checkRes(score){
 
 console.log(checkRes(89));
 console.log(checkRes(32));
+
+
+function finalResult(name,marks,attendance){
+    if(attendance>90){
+        marks+=5;
+    }
+
+    if(attendance>45){
+        console.log(name + " Marks are : " + marks );
+    }
+    else{
+        console.log(name + " Marks are : "+ marks);
+        
+    }
+}
+
+finalResult("mike",50,90)
